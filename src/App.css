@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:#ffd1dc; /* Можеш змінити фон, якщо потрібно */
+  background: linear-gradient(135deg, #ffd1dc, #ff85a2);
 }
 
 /* Центруємо зображення в слайдах */

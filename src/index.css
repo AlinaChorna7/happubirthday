@@ -66,14 +66,7 @@ text-align: center;
   transform: scale(1.05);
 }
 
-.dwa{
-  display: flex;
-  gap: 5px;;
-}
 
-.myz{
-  width: 150px;
-}
 
 .zagolovok-dwa{
 border-top: 3px solid #ff4081;
