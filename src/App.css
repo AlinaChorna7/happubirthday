@@ -1,0 +1,45 @@
+.mySwiper {
+  width: 100%; 
+  height: 500px;
+  position: relative;
+}
+
+/* Стилізація для слайдів */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#ffd1dc; /* Можеш змінити фон, якщо потрібно */
+}
+
+/* Центруємо зображення в слайдах */
+.swiper-slide img {
+  max-width: 100%; /* Зображення не виходитиме за межі слайда */
+  max-height: 100%;
+  object-fit: contain; /* Забезпечує пропорційне масштабування */
+}
+
+/* Стилізація навігаційних кнопок */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 30px;
+  height: 30px;
+  color: #fff; /* Колір кнопок (білі) */
+  background-color: rgba(231, 15, 105, 0.5); /* Прозорий чорний фон */
+  padding: 3px;
+  border-radius: 50%; /* Кнопки круглі */
+  position: absolute;
+  top: 50%; /* Центруємо по вертикалі */
+  transform: translateY(-50%);
+  z-index: 10; /* Щоб кнопки були поверх зображень */
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after{
+  font-size: 20px;
+} 
+
+/* Точкові пагінації */
+.swiper-pagination-bullet {
+  background: white; /* Колір пагінації */
+}
