@@ -24,7 +24,7 @@ import img8 from '../public/img/5424750747087658476.jpg'
 import img9 from '../public/img/5424750747087658477.jpg'
 import img10 from '../public/img/5424750747087657689.jpg'
 import img11 from '../public/img/5424750747087657686.jpg'
-import img12 from '../public/img/5424750747087657687.jpg'
+
 
 import './App.css'
 
@@ -50,7 +50,6 @@ export default function App() {
         <SwiperSlide><img src={img7}/></SwiperSlide>
         <SwiperSlide><img src={img11}/></SwiperSlide>
         <SwiperSlide><img src={img8}/></SwiperSlide>
-        <SwiperSlide><img src={img12}/></SwiperSlide>
         <SwiperSlide><img src={img9}/></SwiperSlide>
       </Swiper>
     </>
